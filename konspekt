@@ -1,0 +1,33 @@
+Õppisin, mis on thonny ja muutujad. Vaatasin thonny käsurida ja vaatasin mis on moodulid.
+
+Eri liiki andmed e. andmetüübid
+Sõnad (string)
+Täisarvud (integer)
+Reaalarvudele vastavad ujukomaarvud(float)
+Järjendid(list) ja sõnastikud (dictionary)
+Literaalid (konstandid)- programmi sisse kirjutatud konkreetsed väärtused (nt literaal: 9.99 ja tähendus: 9,99; literaal: 999E-2 ja tähendus: 9,99)
+Miks andmetüübid tähtsad?
+teatud tüüpidega saab teha teatuid opratsioone e. tehteid
+
+ Avaldis            Väärtus      Tähendus
+ 
+  3*5                 15        Korrutamine
+  6/2                3.0       Jagamine (tulemuseks ujukomaarv)
+  3**2              32 = 9     Astendamine
+4**0.5 või qrt(4)     2         Juurimine
+7//2                  3         Täisarvuline jagamine
+round (2.4581, 2)   2,46        Ümardamine vastava täpsusega
+6%4                   2         Jäägi leidmine
+
+Avaldis                                    Väärtus                Tähendus
+
+“Kiisu” + “Miisu”                        KiisuMiisu            Sõnade liitmine
+“Kiisu” + “ Miisu”                       Kiisu Miisu           Liitmine koos tühikuga
+1001 + “ööd”                             Veateade              Eritüüpi andmed
+“20” + “14”                              2014                  Sõnade liitmine
+“YOLO ” * 3                              YOLO YOLO YOLO        Sõnade dubleerimine
+len(“kuulilennuteetunneliluuk”)          24                    Sõna pikkus
+“Tervist”.upper()                        TERVIST               Kõik suured tähed
+“TeRviSt”.lower()                        tervist               Kõik väiksed tähed
+'jäääär'.count('ä')                      4                     Loeb sõnas vastavaid teisi sõnasid
+‘abcd’[1]                                b                     Kindel täht sõnast
